@@ -57,6 +57,34 @@ h1 {
   background-color: #ff9776;
 }
 
+.post-image-container {
+  width: 100%;
+}
+
+.post-image-container img {
+  width: 100%;
+}
+
+.tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tags li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: navy;
+}
+
+.tags li:first-of-type {
+  margin-left: 0;
+}
+
+.tags li::before {
+  content: '#';
+  color: red;
+}
 
 .expanded {
   display: unset;
